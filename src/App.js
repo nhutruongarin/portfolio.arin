@@ -5,7 +5,7 @@ import Introduction from './components/introduction'
 import About from './components/about'
 import Timeline from './components/timeline'
 import Blog from './components/blog'
-//import Project from './components/projects'
+import Project from './components/projects'
 import Video from './components/video'
 
 class App extends Component {
@@ -18,6 +18,7 @@ class App extends Component {
 					<Introduction></Introduction>
 					<About></About>
 					<Blog></Blog>
+          <Project></Project>
           <Timeline></Timeline>
           <Video></Video>
           	</div>

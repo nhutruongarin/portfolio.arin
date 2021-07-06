@@ -33,12 +33,23 @@ export default class Blog extends Component {
 					</div>
 					</div>
 
-					<div className="col-md-8 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+					<div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 					<div className="blog-entry">
 						<video autoplay="" muted loop="" class="img-responsive" ><source src="images/REshare_1.mp4" type="video/mp4"/></video>
 						<div className="desc">
 							<span><small>2021 </small> | <small> Web design by Adobe Xd </small></span>
 							<h3>RESHARE - New life for old stuff <a href="https://reshare.vn/">   -   https://reshare.vn/ </a></h3>
+						</div>
+					</div>
+					</div>
+
+					
+					<div className="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+					<div className="blog-entry">
+						<video autoplay="" muted loop="" class="img-responsive" ><source src="images/Satsco.mp4" type="video/mp4"/></video>
+						<div className="desc">
+							<span><small>2021 </small> | <small> Web design by Adobe Xd </small></span>
+							<h3>SATSCO - Book website <a href="https://web-prod.vila.vn">   -   https://web-prod.vila.vn/ </a></h3>
 						</div>
 					</div>
 					</div>

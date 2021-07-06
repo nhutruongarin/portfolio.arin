@@ -16,6 +16,7 @@ export default class Introduction extends Component {
                         <div className="desc">
                           <h1>Hi! <br />I'm ARIN <br />Như Trương</h1>
                           <p><a className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1k4Igls5yQ0SyCtRZQaKy_JmBsfTVcI-R/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV <i className="icon-download4" /></a></p>
+                          <p><a className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/17ZsUcfpOiHxYQzh2h6xs8Adetx16z2qe/view" target="_blank" rel="noopener noreferrer">View Projects <i className="icon-briefcase3" /></a></p>
                         </div>
                       </div>
                     </div>
@@ -30,6 +31,7 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner">
                         <div className="desc">
                           <h1>I love DESIGNING<br /> things!</h1>
+                          <p><a className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1k4Igls5yQ0SyCtRZQaKy_JmBsfTVcI-R/view?usp=sharing" target="_blank" rel="noopener noreferrer">View CV <i className="icon-download4" /></a></p>
                           <p><a className="btn btn-primary btn-learn" href="https://drive.google.com/file/d/17ZsUcfpOiHxYQzh2h6xs8Adetx16z2qe/view" target="_blank" rel="noopener noreferrer">View Projects <i className="icon-briefcase3" /></a></p>
                         </div>
                       </div>
