@@ -11,7 +11,111 @@
 *	Edit this section
 *
 * ======================================================= */
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: consolas;
+}
+
+.container{
+  width: 1600px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .card{
+  position: relative;
+  cursor: pointer;
+}
+
+.container .card .face{
+  width: 450px;
+  height: 200px;
+  transition: 0.5s;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container .card .face.face1{
+  position: relative;
+  border-radius: 8px;
+  background: #fcfcfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+  background: rgba(89, 216, 255, 0.15);
+  transform: translateY(0);
+}
+
+.container .card .face.face1 .content{
+  opacity: 0.8;
+  transition: 0.5s;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .card:hover .face.face1 .content{
+  opacity: 1;
+}
+
+.container .card .face.face1 .content img{
+  max-width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container .card .face.face1 .content h3{
+  margin: 10px 0 0;
+  padding: 0;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  font-size: 1.5em;
+}
+
+.container .card .face.face2{
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px 0px 30px;
+  box-sizing: border-box;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-100px);
+}
+
+.container .card:hover .face.face2{
+  transform: translateY(0);
+}
+
+.container .card .face.face2 .content p{
+  margin: 0;
+  padding: 0;
+}
+
+.container .card .face.face2 .content a:hover{
+  background: #333;
+  color: #fff;
+}
+
 body {
+
+  
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
