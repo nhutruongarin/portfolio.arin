@@ -19,6 +19,9 @@ body{
   justify-content: center;
   align-items: center;
   font-family: consolas;
+  @media screen and (max-width: 992px) {
+    body {
+      font-size: 16px; } }
 }
 
 .container{
@@ -34,7 +37,7 @@ body{
 }
 
 .container .card .face{
-  width: 100%;
+  width: 90%;
   height: 200px;
   transition: 0.5s;
   border-radius: 8px;
